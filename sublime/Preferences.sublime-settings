@@ -1,0 +1,18 @@
+{
+	"font_face": "ProFontWindows",
+	"font_options":
+	[
+		"no_antialias",
+		"directwrite"
+	],
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"node_modules\\*",
+		"dist\\*"
+	]
+}
