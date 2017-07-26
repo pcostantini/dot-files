@@ -1,18 +1,26 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Consolas",
-    "editor.fontSize": 14,
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "ProFontWindows",
+    "editor.fontSize": 16,
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "terminal.integrated.lineHeight": 1,
+    // "terminal.integrated.shell.windows": "cmd.exe",
     "git.enabled": false,
     "git.path": null,
     "git.autofetch": false,
     "search.exclude": {
         "**/dist/js": true
     },
-    "editor.cursorBlinking": "solid",
-    "window.zoomLevel": 0,
     "typescript.check.tscVersion": false,
-    "editor.renderWhitespace": "none",
-    "editor.minimap.enabled": true,
-    "editor.minimap.renderCharacters": false,
-    "terminal.integrated.shell.windows": "cmd.exe"
+    "files.trimTrailingWhitespace": true,
+    "explorer.openEditors.visible": 0,
+    "workbench.editor.showIcons": true,
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.sideBar.location": "right",
+    "editor.codeLens": false,
+    "csharp.fallbackDebuggerLinuxRuntimeId": "ubuntu.16.10-x64"
 }
