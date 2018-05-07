@@ -1,26 +1,40 @@
 // Place your settings in this file to overwrite the default settings
 {
     "window.zoomLevel": 0,
+    // "editor.fontFamily": "IBM Plex Mono",
     "editor.fontFamily": "ProFontWindows",
     "editor.fontSize": 16,
     "editor.cursorBlinking": "solid",
+    "editor.lineNumbers": "on",
     "editor.renderWhitespace": "none",
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "terminal.integrated.lineHeight": 1,
-    // "terminal.integrated.shell.windows": "cmd.exe",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+
     "git.enabled": false,
     "git.path": null,
     "git.autofetch": false,
+
     "search.exclude": {
-        "**/dist/js": true
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true,
+        "**/compiled": true
     },
-    "typescript.check.tscVersion": false,
-    "files.trimTrailingWhitespace": true,
+
     "explorer.openEditors.visible": 0,
     "workbench.editor.showIcons": true,
     "workbench.iconTheme": "vs-minimal",
-    "workbench.sideBar.location": "right",
+    // "workbench.sideBar.location": "right",
     "editor.codeLens": false,
-    "csharp.fallbackDebuggerLinuxRuntimeId": "ubuntu.16.10-x64"
+    "markdown.preview.scrollEditorWithPreview": false,
+    "explorer.confirmDelete": false,
+
+    "omnisharp.useEditorFormattingSettings": false,
+    "workbench.sideBar.location": "right"
 }
