@@ -1,0 +1,8 @@
+code-oss
+-----
+chromium-browser
+firefox
+midori
+-----
+./xlock
+./rdp-windows.sh
