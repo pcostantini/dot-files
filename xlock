@@ -1,0 +1,1 @@
+xscreensaver -no-splash & sleep 5s && xscreensaver-command -lock
