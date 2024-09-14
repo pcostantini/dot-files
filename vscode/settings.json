@@ -1,29 +1,38 @@
 {
-    "editor.fontFamily": "Hack",
-    "editor.fontSize": 12,
-    "editor.cursorBlinking": "solid",
-    "editor.lineNumbers": "on",
-    "editor.renderWhitespace": "all",
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "terminal.integrated.fontFamily": "Hack",
-    "terminal.integrated.lineHeight": 1,
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/dist": true,
-        "**/compiled": true
-    },
-    // disabled stuff
-    "editor.minimap.enabled": true,
+    // font
+    "editor.fontFamily": "Berkeley Mono Variable",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontFamily": "Berkeley Mono Variable",
+    "terminal.integrated.fontSize": 14,
+    // editor
+    "editor.minimap.maxColumn": 92,
+    "editor.minimap.size": "proportional",
     "editor.minimap.renderCharacters": false,
     "editor.codeLens": false,
-    "workbench.settings.editor": "json",
-    "explorer.openEditors.visible": 0,
-    "window.zoomLevel": 0,
     "git.enabled": false,
-    "git.path": null,
-    "git.autofetch": false,
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false
-}
+    // workbech
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.sideBar.location": "right",
+    "workbench.settings.editor": "json",
+    "explorer.confirmDelete": false,
+    "explorer.excludeGitIgnore": false,
+    // search
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/dist": true,
+      "**/compiled": true
+    },
+    // plugin settings
+    "xml.format.maxLineWidth": 500,
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    // shit
+    "dotnet.server.useOmnisharp": true,
+    "window.confirmBeforeClose": "always",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "azureFunctions.showProjectWarning": false,
+    "telemetry.telemetryLevel": "off",
+    "FSharp.openTelemetry.enabled": false
+  }

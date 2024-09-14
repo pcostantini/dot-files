@@ -1,15 +1,9 @@
 {
-	"font_face": "ProFontWindows",
-	"font_options":
-	[
-		"no_antialias",
-		"directwrite"
-	],
-	"font_size": 15,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"font_face": "Berkeley Mono Variable",
+	"font_size": 13,
+	"update_check": false,
+	"spell_check": false,
+	"spelling_selector": "",
 	"index_exclude_patterns":
 	[
 		"node_modules\\*",
